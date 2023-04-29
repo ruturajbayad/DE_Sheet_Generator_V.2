@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Consolas", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.nav {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.8px);
+  height: 65.7em;
+  width: 25rem;
+  margin-left: 111.6rem;
+  display: grid;
+
+  li {
+    font-size: 5vh;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    &:hover {
+      color: azure;
+    }
+  }
+  
+  ul {
+    align-items: center;
+    margin-top: 9rem;
+    margin-left: 5rem;
+  }
+  .hamburger-menu{
+    font-size: 3rem;
+    margin-bottom: rem;
+  }
+}
