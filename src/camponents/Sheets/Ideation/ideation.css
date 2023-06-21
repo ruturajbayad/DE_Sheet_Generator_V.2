@@ -1,0 +1,234 @@
+.backgroundidt{
+        
+    height: 135%;
+    display: grid;
+    grid-template-columns: 400px 830px;
+    background-color: #0d3149;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(156.92, 10%, 27%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
+    }
+
+/* sidebar */
+.sidebar{
+    margin-top: 10px;
+    margin-left: 20px;
+    width:300px; 
+    height: 650px;
+    backdrop-filter: blur(25px) saturate(176%);
+    -webkit-backdrop-filter: blur(25px) saturate(176%);
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 30px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    }
+    .elementtext{
+        float: left;
+        letter-spacing: 3px;
+        width: 300px;
+        margin-top: 10%;
+        margin-left: 80px;
+        padding: 5px;
+        color: aliceblue;
+    }
+    .inputs{
+        margin-left: 35px;
+        float: left;
+        width: 230px;
+        margin-top: 5%;
+        padding: 5px;
+        backdrop-filter: blur(25px) saturate(200%);
+        -webkit-backdrop-filter: blur(25px) saturate(200%);
+        background-color: rgba(255, 255, 255, 0.63);
+        border-radius: 12px;
+        border: 1px solid rgba(209, 213, 219, 0.3);
+    }   
+    .sidebutton{
+        width: 5em;
+        height: 40px;
+        font-size: 1.5em;
+        border: none;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+        border: 1px solid rgba(209, 213, 219, 0.3);
+        color: white;
+        cursor: pointer;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        outline: none;
+        transition: all 100ms ease-in;
+        margin-top: 5%;
+        margin-left: 90px;
+    }
+/*sheet*/
+#mainsheetidt{
+margin-top: 36px;
+width: 800px;
+background: rgb(255, 255, 255);
+margin-right: 4.4%;
+border: 1px solid black;
+
+/*margin-bottom: 10%;*/
+}
+/* Sheet header */
+.sheetheaderidt{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 280px 290px 180px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    border: 1px solid black;   
+}
+.containeridt{
+    width: 800px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 130px;
+   }
+   .container2idt{    
+    width: 800px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 222px;
+   }
+   .container3idt{
+    width: 800px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 150px;
+   }
+
+.borderidt{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/*elements*/
+.boxidt{
+margin-top: 3%;
+display: inline;
+height: 35px;
+/* background-color:rgb(228, 240, 15); */
+margin-left: 3%;
+text-align:center;
+font-weight: bold;
+}
+.bigboxidt{
+margin-top: 3%;
+display: inline;
+height: 35px;
+/* background-color:rgb(228, 240, 15); */
+margin-left: 3%;
+text-align:center;
+font-weight: bold;
+}
+.colors{
+float: left;
+display: flex;
+width: 200px;
+font-family: "Open Sans", sans-serif;
+margin-top: 5%;
+margin-left: 1%;
+font-weight: bold;
+}
+.colorc{
+float: left;
+display: flex;
+margin-top: 5%;
+width: 65px;
+margin-left: -2%;
+height: 30px;
+}
+/* .gcc
+{
+background-color:rgb(228, 240, 15);
+width: 100px; 
+margin-left: 38%; 
+margin-top: -10%; 
+text-align: center; 
+font-weight: bold;
+} */
+
+/* header sheet stiky not  */
+#d00idt
+{
+width:210px; 
+height: 24px; 
+padding-top:1px; 
+margin-left: 33%; 
+margin-top: -10%; 
+text-align: center; 
+font-weight: bold;
+}
+#d11idt
+{
+width:100px; 
+height: 24px; 
+padding-top:1px; 
+margin-left: 54%;
+margin-top: -22%; 
+text-align: center; 
+font-weight: bold;
+}
+#pdividt{
+width:223px; 
+height: 24px; 
+margin-left: 1%; 
+margin-top: 12px;
+font-weight: bold;
+}
+#tdividf{
+width:100px; 
+height: 24px; 
+margin-left: 7%; 
+margin-top: 12px;
+font-weight: bold;
+}
+
+.bottombuttonsidt
+{
+width: 180px;
+height: 35px;
+font-size: 20px;
+border: none;
+backdrop-filter: blur(16px) saturate(180%);
+-webkit-backdrop-filter: blur(16px) saturate(180%);
+background-color: rgba(0, 0, 0, 0.75);
+border-radius: 12px;
+border: 1px solid rgba(209, 213, 219, 0.3);
+color: white;
+cursor: pointer;
+font-family: "Open Sans", sans-serif;
+font-weight: bold;
+outline: none;
+transition: all 100ms ease-in;
+margin-top: 10px;
+margin-left: 120px;
+font-weight: bold;
+color: white;
+}
+#save, #Home{
+margin-left:0%
+}
+
+/*data-placeholder for div*/
+.placeh:empty:before{
+content:attr(data-placeholder);
+color: gray;
+font-size: 10px;
+width: 200px;
+}
+/* useless but need */
+.col2idt{
+width: 1000px; 
+height: 700px;  
+}

@@ -1,0 +1,239 @@
+/* Global Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  
+  /* Page Background */
+  .background {
+    display: grid;
+    grid-template-columns: 350px 1100px;
+    background-color: #0d3149;
+    background-image: radial-gradient(at 47% 33%, hsl(156.92, 10%, 27%) 0, transparent 59%),
+      radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 300px;
+    height: 640px;
+    backdrop-filter: blur(25px) saturate(176%);
+    -webkit-backdrop-filter: blur(25px) saturate(176%);
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 30px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+   
+  }
+  
+  .sidebar .elementtext {
+    float: left;
+    letter-spacing: 3px;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 80px;
+    padding: 5px;
+    color: aliceblue;
+  }
+  
+  .sidebar .inputs {
+    margin-left: 35px;
+    float: left;
+    width: 220px;
+    height: 32px;
+    font-size: 15px;
+    margin-top: 5%;
+    padding: 5px;
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  }
+  
+  .sidebar .sidebutton {
+    width: 7em;
+    height: 40px;
+    font-size: 1.5em;
+    border: none;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    color: white;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    outline: none;
+    transition: all 100ms ease-in;
+    margin-top: 5%;
+    margin-left: 96px;
+  }
+  
+  /* Main Sheet */
+  #mainsheet {
+    margin-top: 36px;
+    width: 900px;
+    background: rgb(255, 255, 255);
+    margin-right: 4.4%;
+  }
+  
+  /* Sheet Header */
+  .sheetheader {
+    font-size: 15px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 255px 380px 130px;
+    border: 1px solid black;
+  }
+  
+  /* Group ID, Domain Name & Date Portion */
+  .group {
+    height: 56px;
+    display: grid;
+    grid-template-columns: 220px 160px;
+    grid-template-rows: 28px 28px;
+  }
+  
+  /* EIO Portion */
+  .container1 {
+    font-size: 20px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+  }
+  
+  /* AU Portion */
+  .container2 {
+    font-size: 20px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px;
+  }
+  
+  /* Boxes AEIOU */
+  .borderAEIOU {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Elements */
+  .box {
+    margin-top: 3%;
+    display: inline;
+    height: 35px;
+    margin-left: 3%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .bigbox {
+    margin-top: 3%;
+    display: inline;
+    height: 35px;
+    margin-left: 3%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .colors {
+    float: left;
+    display: flex;
+    width: 200px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5%;
+    margin-left: 1%;
+    font-weight: bold;
+  }
+  
+  .colorc {
+    float: left;
+    display: flex;
+    margin-top: 5%;
+    width: 65px;
+    margin-left: -2%;
+    height: 30px;
+  }
+  
+  /* Bottom Buttons */
+  .bottombuttons {
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    color: white;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    outline: none;
+    transition: all 100ms ease-in;
+    margin-top: 21px;
+    margin-left: 190px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Data Placeholder for Div */
+  .placeh:empty:before {
+    content: attr(data-placeholder);
+    color: gray;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  /* Useless but Needed */
+  .col2 {
+    width: 1000px;
+    height: 700px;
+  }
+
+  #d00
+  {
+      background-color:rgb(228, 240, 15);
+      width: 100px; 
+      display: inline-block;
+      text-align: center; 
+      font-weight: bold;
+  }
+  #d11
+  {
+      background-color:rgb(228, 240, 15);
+      width: 205px; 
+      display: inline-block;
+      text-align: center; 
+      font-weight: bold;
+      /* margin-top: -10%;
+      margin-left: 57%; */
+  }
+  #d22
+  {
+      background-color:rgb(228, 240, 15);
+      width: 100px; 
+      display: inline-block;
+      text-align: center; 
+      font-weight: bold;
+
+  }
+  #d33{
+      background-color:rgb(228, 240, 15);
+      width: 54px; 
+      display: inline-block;
+      text-align: center; 
+      font-weight: bold;
+      margin-left: 2px;
+      position: absolute;
+      
+
+  }
+  

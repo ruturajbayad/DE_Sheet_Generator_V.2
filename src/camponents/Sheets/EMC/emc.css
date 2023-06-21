@@ -1,0 +1,300 @@
+.backgroundemc{
+    height: 940px;
+    display: grid;
+    grid-template-columns: 450px 725px;
+    background-color: #0d3149;
+    background-image: radial-gradient(at 47% 33%,
+            hsl(156.92, 10%, 27%) 0,
+            transparent 59%),
+        radial-gradient(at 82% 65%, hsl(198, 100%, 50%) 0, transparent 55%);
+}
+
+/* sidebar */
+.sidebar {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 300px;
+    height: 640px;
+    backdrop-filter: blur(25px) saturate(176%);
+    -webkit-backdrop-filter: blur(25px) saturate(176%);
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 30px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.elementtext {
+    float: left;
+    letter-spacing: 3px;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 80px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.inputs {
+    margin-left: 35px;
+    float: left;
+    width: 230px;
+    margin-top: 5%;
+    padding: 5px;
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.sidebutton {
+    width: 5em;
+    height: 40px;
+    font-size: 1.5em;
+    border: none;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    color: white;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    outline: none;
+    transition: all 100ms ease-in;
+    margin-top: 5%;
+    margin-left: 90px;
+}
+
+/*sheet*/
+#mainsheetemc {
+    margin-top: 12px;
+    width: 700px;
+    background: rgb(255, 255, 255);
+    margin-right: 4.4%;
+    border: 1px solid black;
+
+    /*margin-bottom: 10%;*/
+}
+
+/* Sheet header */
+.sheetheaderemc {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.DFor {
+    padding-bottom: 9px;
+}
+
+.DBy {
+    padding-bottom: 9px;
+}
+
+.dateemc {
+    padding-bottom: 10px;
+}
+
+.versionemc {
+    padding-bottom: 10px;
+}
+
+/* group id Dname & Date Portion */
+
+/* Sheet Grid */
+.container1emc {
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+    border-top: 1px solid black;
+}
+
+.container2ecm {
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 200px;
+}
+
+.container3emc{
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 111px;
+}
+
+.container4ecm{
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 100px;
+}
+
+.container5ecm{
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 100px;
+}
+
+.container6emc{
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 100px;
+}
+
+.sheetemc{
+    font-size: 15px;
+}
+
+textarea{
+    width: 677.6px;
+    font-size: 15px;
+    padding: 1px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.item5emc,
+.item6emc,
+.item7emc,
+.item8emc {
+    font-weight: normal;
+}
+
+.borderemc{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/*elements*/
+.boxemc{
+    margin-top: 3%;
+    display: inline;
+    height: 35px;
+    /* background-color:rgb(228, 240, 15); */
+    margin-left: 3%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bigboxemc{
+    margin-top: 3%;
+    display: inline;
+    height: 35px;
+    /* background-color:rgb(228, 240, 15); */
+    margin-left: 3%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.colors {
+    float: left;
+    display: flex;
+    width: 200px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5%;
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+.colorc {
+    float: left;
+    display: flex;
+    margin-top: 5%;
+    width: 65px;
+    margin-left: -2%;
+    height: 30px;
+}
+
+/* .gcc
+{
+background-color:rgb(228, 240, 15);
+width: 100px; 
+margin-left: 38%; 
+margin-top: -10%; 
+text-align: center; 
+font-weight: bold;
+} */
+
+/* header sheet stiky not  */
+#d00emc{
+    background-color: rgb(228, 240, 15);
+    width: 205px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#d11emc{
+    background-color: rgb(228, 240, 15);
+    width: 205px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#d22emc{
+    background-color: rgb(228, 240, 15);
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#d33emc{
+    background-color: rgb(228, 240, 15);
+    width: 63px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bottombuttonsemc{
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    color: white;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    outline: none;
+    transition: all 100ms ease-in;
+    margin-top: 10px;
+    margin-left: 75px;
+    font-weight: bold;
+    color: white;
+}
+
+#save,
+#Home {
+    margin-left: 0%;
+}
+
+/*data-placeholder for div*/
+.placeh:empty:before {
+    content: attr(data-placeholder);
+    color: gray;
+    font-size: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+
+/* useless but need */
+.col2emc{
+    width: 725px;
+    height: 700px;
+}

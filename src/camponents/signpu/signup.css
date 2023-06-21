@@ -1,0 +1,54 @@
+.main11{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black
+}
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.navlink{
+    text-decoration: none;
+    color: blue;
+    font-size:small;
+    float: right;
+}
+.inputs{
+    border: 2px black important;
+}
+.bottomtext1{
+    padding-top: 5%;
+    font-size: small;
+    text-align: center;
+    margin-right: 20%;
+}
+.bottomlink1{
+    font-size: small;
+    float: right;
+    margin-top: -7.5%;
+    margin-right: 29%;
+    color:blue
+}

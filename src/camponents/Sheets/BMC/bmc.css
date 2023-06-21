@@ -1,0 +1,253 @@
+.backgroundbmc {
+  height: 775px;
+  display: grid;
+  grid-template-columns: 340px 1000px;
+  background-color: #0d3149;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(156.92, 10%, 27%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(198, 100%, 50%) 0, transparent 55%);
+}
+
+/* sidebar */
+.sidebar {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 300px;
+  height: 640px;
+  backdrop-filter: blur(25px) saturate(176%);
+  -webkit-backdrop-filter: blur(25px) saturate(176%);
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 30px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.elementtext {
+  float: left;
+  letter-spacing: 3px;
+  width: 300px;
+  margin-top: 10%;
+  margin-left: 80px;
+  padding: 5px;
+  color: aliceblue;
+}
+.inputs {
+  margin-left: 35px;
+  float: left;
+  width: 230px;
+  margin-top: 5%;
+  padding: 5px;
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.63);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.sidebutton {
+  width: 5em;
+  height: 40px;
+  font-size: 1.5em;
+  border: none;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  color: white;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  outline: none;
+  transition: all 100ms ease-in;
+  margin-top: 5%;
+  margin-left: 90px;
+}
+/*sheet*/
+#mainsheetbmc {
+  margin-top: 12px;
+  width: 1000px;
+  background: rgb(255, 255, 255);
+  margin-right: 4.4%;
+  border: 1px solid black;
+
+  /*margin-bottom: 10%;*/
+}
+/* Sheet header */
+.sheetheaderbmc {
+  width: 1000px;
+  height: 36px;
+  display: grid;
+  grid-template-columns: 260px 220px 220px 150px 150px;
+  padding-top: 18px;
+  padding-bottom: 36px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 13px;
+}
+.Titlebmc {
+  padding-left: 3px;
+  font-size: 15px;
+}
+/* group id Dname & Date Portion */
+
+/* Sheet Grid */
+.sheetbmc {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 195px 195px 97.5px 97.5px 215px 200px;
+  grid-template-rows: 220px 220px 160px;
+}
+/* Sheet Elemnts Grid */
+.box1bmc {
+  grid-area: 1/1/3/2;
+}
+.box2bmc {
+  grid-area: 1/2/2/3;
+}
+.box3bmc {
+  grid-area: 1/3/3/5;
+}
+.box4bmc {
+  grid-area: 1/5/2/6;
+}
+.box5bmc {
+  grid-area: 1/6/3/8;
+}
+.box6bmc {
+  grid-area: 2/2/3/3;
+}
+.box7bmc {
+  grid-area: 2/5/3/6;
+}
+.box8bmc {
+  grid-area: 3/1/4/4;
+}
+.box9bmc {
+  grid-area: 3/4/4/7;
+}
+
+.borderbmc {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 9px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/*elements*/
+.boxbmc {
+  margin-top: 3%;
+  display: inline;
+  height: 35px;
+  background-color:rgb(228, 240, 15);
+  margin-left: 3%;
+  text-align: center;
+  font-weight: bold;
+}
+.bigbox {
+  margin-top: 3%;
+  display: inline;
+  height: 35px;
+  background-color:rgb(228, 240, 15);
+  margin-left: 3%;
+  text-align: center;
+  font-weight: bold;
+}
+.colors {
+  float: left;
+  display: flex;
+  width: 200px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5%;
+  margin-left: 1%;
+  font-weight: bold;
+}
+.colorcbmc {
+  float: left;
+  display: flex;
+  margin-top: 5%;
+  width: 65px;
+  margin-left: -2%;
+  height: 30px;
+}
+/* .gcc
+{
+background-color:rgb(228, 240, 15);
+width: 100px; 
+margin-left: 38%; 
+margin-top: -10%; 
+text-align: center; 
+font-weight: bold;
+} */
+
+/* header sheet stiky not  */
+#d00bmc {
+  background-color: rgb(228, 240, 15);
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+}
+#d11bmc {
+  background-color: rgb(228, 240, 15);
+  width: 130px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+#d22bmc {
+  background-color: rgb(228, 240, 15);
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+#d33bmc {
+  background-color: rgb(228, 240, 15);
+  width: 54px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bottombuttonsbmc {
+  width: 180px;
+  height: 35px;
+  font-size: 20px;
+  border: none;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  color: white;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  outline: none;
+  transition: all 100ms ease-in;
+  margin-top: 10px;
+  margin-left: 190px;
+  font-weight: bold;
+  color: white;
+}
+#save,
+#Home {
+  margin-left: 0%;
+}
+
+/*data-placeholder for div*/
+.placeh:empty:before {
+  content: attr(data-placeholder);
+  color: gray;
+  font-size: 10px;
+  width: 200px;
+}
+/* useless but need */
+.col2bmc{
+  width: 1000px;
+  height: 700px;
+}
